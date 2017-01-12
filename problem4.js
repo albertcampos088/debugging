@@ -3,7 +3,7 @@ var namespace = "http://www.w3.org/2000/svg"
 var canvas = document.getElementById("problem-four-canvas")
 
 // Create a circle and add it to the canvas.
-var shape = document.createElementNS(namespace, "circle")
+var myFirstShape = document.createElementNS(namespace, "circle")
 myFirstShape.setAttribute("cx", 100)
 myFirstShape.setAttribute("cy", 100)
 myFirstShape.setAttribute("r", 50)

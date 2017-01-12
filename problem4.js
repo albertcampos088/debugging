@@ -12,7 +12,7 @@ canvas.appendChild(myFirstShape)
 
 
 // Create a rectangle and add it to the canvas.
-var mySecondShape = document.createElementById(namespace, "rect")
+var mySecondShape = document.createElementNS(namespace, "rect")
 mySecondShape.setAttribute("x", 100)
 mySecondShape.setAttribute("y", 40)
 mySecondShape.setAttribute("width", 70)
